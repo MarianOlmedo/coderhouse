@@ -1,0 +1,132 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(500px,auto);
+    .aside {
+    background: grey;
+    font-size: 20px;
+    padding: 10px;
+}
+    .article{
+    background: black;
+     }
+    .article img{
+    -webkit-transform: translate(20px,20px);
+    transform: translate(20px,20px);
+    width: 600px;
+    height: 460px;
+}
+}
+
+
+.main_productos{
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(500px,auto);
+    background: black;
+    
+    
+    .article_productos{
+    background-color: black;
+    justify-self: center
+        .article_productos img{
+    
+    width: 800px;
+    height: 460px;
+    }
+    }
+    .aside{
+        color: white;
+    }
+}
+
+
+
+ 
+
+
+.main_trabajos{
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(500px,auto);
+    background: black;
+    .article_trabajos{
+    background-color: black;
+    justify-self: center;
+        .article_trabajos img{
+    width: 800px;
+    height: 460px;
+    }
+}
+    }
+    .aside{
+        color: white;
+    }
+}
+
+
+
+
+
+.aside_contacto {
+    background: black;
+    padding: 10px;
+    height: 100%;
+}
+
+
+.main .article_contacto{
+    background: black;   
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1.5em;
+    font-size: 10px;
+    .article_contacto h3{
+    text-align: center;
+    font-size: 1em;
+}
+    .article_contacto form{
+    margin: 0;
+    padding: 1em;
+        .article_contacto form button,  
+
+        .article_contacto form input,
+
+        .article_contacto form textarea{
+            width: 100%;
+    
+            padding: .7em;
+        
+}
+}
+    
+}
+
+
+
+footer{
+    background: rgb(69,72,77);
+background: -webkit-gradient(linear,  left top, right top,  from(rgb(69,72,77)),to(rgb(0,0,0)));
+background: linear-gradient(to right,  rgb(69,72,77) 0%,rgb(0,0,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+
+    padding: 5px;
+}
+
+.copy{
+    padding-top: 15px;
+}
